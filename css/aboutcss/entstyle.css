@@ -2,10 +2,10 @@
 
 .html {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
-  }
-  
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
@@ -14,15 +14,15 @@ body {
     scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 10px;
     background-color: #f9f9fd;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background-color: #0d1420;
 }
-body::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
     background-color: #a7a7c4;
 }
 
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-track{
     justify-content: space-between;
     align-items: center;
 }
-.header-page__start{
+.header-page__start {
     padding-left: 163px;
 }
 .header-page__end {
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-track{
     font-size: 18px;
     position: relative;
     transition: color;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 .header-page__link:hover {
     color: #1f1f1f;
@@ -77,34 +77,34 @@ body::-webkit-scrollbar-track{
 .header-page__link:active {
     opacity: 0.8;
 }
-.header-page_li{
+.header-page_li {
     padding: 15px 35px;
 }
 
 /**/
 
-.title_ent{
+.title_ent {
     margin-top: 100px;
 }
-h1{
+h1 {
     text-align: center;
-    color:#0d1420;
+    color: #0d1420;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.panara h2{
+.panara h2 {
     padding-left: 50px;
-    color:grey;
+    color: grey;
 }
-.dadonov li{
-    padding-left:50px;
-    color:grey;
-    font-size:20px;
+.dadonov li {
+    padding-left: 50px;
+    color: grey;
+    font-size: 20px;
 }
-.schools ol{
+.schools ol {
     padding-left: 70px;
-    color:grey;
-    font-size:20px;
+    color: grey;
+    font-size: 20px;
 }
 
 /*   footer   */
@@ -114,10 +114,10 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 .footer_text {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-left: 150px;
     margin-bottom: 0px;
     padding-bottom: 20px;
@@ -129,12 +129,12 @@ h1{
 }
 .footer_rights {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin-left: 150px;
     margin-bottom: 50px;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
     margin-right: 30px;
@@ -145,7 +145,7 @@ h1{
 .footer_link {
     margin-left: 250px;
 }
-.footer-col h4{
+.footer-col h4 {
     font-size: 22px;
     color: #ffffff;
     text-transform: capitalize;
@@ -154,9 +154,9 @@ h1{
     margin-bottom: 25px;
     font-weight: 500;
     position: relative;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
-.footer-col ul li a{
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -165,30 +165,30 @@ h1{
     color: white;
     display: block;
     transition: all 0.3s ease;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     line-height: 30px;
 }
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
     color: #ffffff;
     padding-left: 10px;
 }
 .phone {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     text-decoration: none;
 }
 .footer_links {
     list-style-type: none;
 }
 
-.right_hand_side{
+.right_hand_side {
     text-align: left;
     margin-right: 250px;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 .contact {
-    font-size: 22px; 
+    font-size: 22px;
 }
 .container_img:hover {
     opacity: 0.6;
